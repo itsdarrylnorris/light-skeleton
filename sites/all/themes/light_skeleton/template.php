@@ -4,12 +4,10 @@
  */
 function _light_skeleton_add_css() {
 
-// TODO we need to add the css files.
   $theme_path = path_to_theme();
   drupal_add_css($theme_path . '/css/light_skeleton_style.css');
   drupal_add_css($theme_path . '/css/light_skeleton_skeleton.css');
   drupal_add_css($theme_path . '/css/light_skeleton_responsive_nav.css');
-
 }
 
 /**
@@ -49,21 +47,21 @@ function light_skeleton_preprocess_page(&$variables) {
     drupal_set_message(t('Jquery update is required, <a target="_blank" href="!url">Download it</a>,  install and switch jquery to version 1.7', array('!url' => 'http://drupal.org/project/jquery_update')), 'warning');
   }
 
-  $page = $variables['page'];
+    $page = $variables['page'];
 
 
-  $content_class = 'sixteen columns';
+    $content_class = 'sixteen columns';
 
-  $container_class = "";
-  if ($page['sidebar_first'] || $page['sidebar_second']) {
-    $content_class = "eleven floated right";
-    $container_class = 'floated';
-  }if ($page['sidebar_second']) {
-    $content_class = 'eleven floated left';
+    $container_class = "";
+    if ($page['sidebar_first'] || $page['sidebar_second']) {
+      $content_class = "eleven floated right";
+      $container_class = 'floated';
+    }if ($page['sidebar_second']) {
+      $content_class = 'eleven floated left';
+    }
+    $variables['containner_class'] = $container_class;
+    $variables['content_class'] = $content_class;
   }
-  $variables['containner_class'] = $container_class;
-  $variables['content_class'] = $content_class;
-}
 
 // Defining breadcrumb.
 function light_skeleton_breadcrumb($variables) {

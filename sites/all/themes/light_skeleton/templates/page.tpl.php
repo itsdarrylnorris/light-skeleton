@@ -96,8 +96,7 @@
 
 
     <!-- 960 Container -->
-    <div class="container <?php print $containner_class; ?>">
-
+    <div class="container floated <?php print $containner_class; ?>">
 
       <!-- Page Content -->
       <div class="<?php print $content_class; ?>">
