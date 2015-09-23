@@ -116,26 +116,6 @@
       </div>
       <!-- Page Content / End -->
 
-      <?php if ($page['sidebar_first']): ?>
-        <div id="sidebar-first" class="four floated sidebar left">
-          <aside class="sidebar">
-            <div class="section">
-              <?php print render($page['sidebar_first']); ?>
-            </div>
-          </aside>
-        </div>
-      <?php endif; ?>
-
-      <?php if ($page['sidebar_second']): ?>
-        <div id="sidebar-second" class="four floated sidebar right">
-          <aside class="sidebar">
-            <div class="section">
-              <?php print render($page['sidebar_second']); ?>
-            </div>
-          </aside>
-        </div>
-      <?php endif; ?>
-
       <div class="clearfix"></div>
 
     </div>

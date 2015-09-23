@@ -390,3 +390,7 @@ p.margin {
 .left{
   float: left;
 }
+
+.option{
+  display:inline;
+}

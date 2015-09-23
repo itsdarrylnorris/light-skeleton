@@ -3,7 +3,6 @@
  * Adding CSS Files
  */
 function _light_skeleton_add_css() {
-
   $theme_path = path_to_theme();
   drupal_add_css($theme_path . '/css/light_skeleton_style.css');
   drupal_add_css($theme_path . '/css/light_skeleton_skeleton.css');
@@ -53,12 +52,7 @@ function light_skeleton_preprocess_page(&$variables) {
     $content_class = 'sixteen columns';
 
     $container_class = "";
-    if ($page['sidebar_first'] || $page['sidebar_second']) {
-      $content_class = "eleven floated right";
-      $container_class = 'floated';
-    }if ($page['sidebar_second']) {
-      $content_class = 'eleven floated left';
-    }
+
     $variables['containner_class'] = $container_class;
     $variables['content_class'] = $content_class;
   }
