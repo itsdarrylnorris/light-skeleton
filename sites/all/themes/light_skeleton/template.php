@@ -4,9 +4,9 @@
  */
 function _light_skeleton_add_css() {
   $theme_path = path_to_theme();
-  drupal_add_css($theme_path . '/css/light_skeleton_style.css');
   drupal_add_css($theme_path . '/css/light_skeleton_skeleton.css');
   drupal_add_css($theme_path . '/css/light_skeleton_responsive_nav.css');
+  drupal_add_css($theme_path . '/css/light_skeleton_style.css');
 }
 
 /**
