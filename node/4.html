@@ -1,0 +1,410 @@
+
+<!DOCTYPE html>
+<!--[if IE 7 ]><html class="ie ie7" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+
+  <head profile="http://www.w3.org/1999/xhtml/vocab">
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="/node/4" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortlink" href="/node/4" />
+  <title>Webform | Light Skeleton</title>
+  <style type="text/css" media="all">
+@import url("/modules/system/system.base.css?");
+</style>
+<style type="text/css" media="all">
+@import url("/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min.css?");
+@import url("/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min.css?");
+@import url("/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.datepicker.min.css?");
+</style>
+<style type="text/css" media="all">
+@import url("/modules/comment/comment.css?");
+@import url("/modules/field/theme/field.css?");
+@import url("/modules/node/node.css?");
+@import url("/modules/search/search.css?");
+@import url("/modules/user/user.css?");
+@import url("/sites/all/modules/views/css/views.css?");
+</style>
+<style type="text/css" media="all">
+@import url("/sites/all/modules/ctools/css/ctools.css?");
+@import url("/sites/all/modules/webform/css/webform.css?");
+@import url("/sites/all/themes/light_skeleton/css/light_skeleton_skeleton.css?");
+@import url("/sites/all/themes/light_skeleton/css/light_skeleton_responsive_nav.css?");
+@import url("/sites/all/themes/light_skeleton/css/light_skeleton_style.css?");
+</style>
+  <!--   -->
+    <!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+  <script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="/misc/drupal.js?"></script>
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.core.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.datepicker.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="/misc/form.js?v=7.39"></script>
+<script type="text/javascript" src="/misc/textarea.js?v=7.39"></script>
+<script type="text/javascript" src="/misc/tableheader.js?"></script>
+<script type="text/javascript" src="/sites/all/modules/webform/js/webform.js?"></script>
+<script type="text/javascript" src="/sites/all/themes/light_skeleton/js/light_skeleton_menu.js?"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"light_skeleton","theme_token":"xQ8HOFqpVEzS9F1KCj2PA18J5htU1AXF8lO0k3ILAUQ","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.datepicker.min.js":1,"misc\/form.js":1,"misc\/textarea.js":1,"misc\/tableheader.js":1,"sites\/all\/modules\/webform\/js\/webform.js":1,"sites\/all\/themes\/light_skeleton\/js\/light_skeleton_menu.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.datepicker.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/webform\/css\/webform.css":1,"sites\/all\/themes\/light_skeleton\/css\/light_skeleton_skeleton.css":1,"sites\/all\/themes\/light_skeleton\/css\/light_skeleton_responsive_nav.css":1,"sites\/all\/themes\/light_skeleton\/css\/light_skeleton_style.css":1,"sites\/all\/themes\/light_skeleton\/system.messages.css":1,"sites\/all\/themes\/light_skeleton\/system.menus.css":1,"sites\/all\/themes\/light_skeleton\/system.theme.css":1}},"urlIsAjaxTrusted":{"\/node\/4":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-4 node-type-webform" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <!-- Wrapper / Start -->
+<div id="wrapper">
+  <!-- Header
+  ================================================== -->
+  <div id="top-line"></div>
+
+      <!-- Navigation
+    ================================================== -->
+<div class="ten text_center">
+  <a href="/" title="Home" rel="home" id="logo">
+            <img class="logo" src="/sites/all/themes/light_skeleton/logo.png" alt="Home" />
+          </a>
+<h2 class="display_inline">
+    <a href="/" title="Home" rel="home"><span>Light Skeleton</span></a>
+</h2>
+<div class="clear"></div>
+
+      <h5 class="site_slogan">
+          A Simple Theme      </h5>
+      </div>
+
+    <nav id="navigation" class="navbar replaceme">
+       <div class="container">
+
+      <div class="left-corner"></div>
+      <div class="right-corner"></div>
+
+        <div class="region region-main-menu">
+    <div id="block-system-main-menu" class="block block-system block-menu">
+
+    
+  <div class="content">
+    <ul id="menu" class="navbar-list"><li class="first leaf navbar-item"><a href="/" class="navbar-link a-class">Home</a></li>
+<li class="leaf navbar-item"><a href="/node/7" class="navbar-link a-class">Documentation</a></li>
+<li class="leaf navbar-item"><a href="/node/5" class="navbar-link a-class">Article</a></li>
+<li class="leaf active-trail navbar-item"><a href="/node/4" class="active-trail navbar-link a-class active">Webform</a></li>
+<li class="last leaf navbar-item"><a href="/node/3" class="navbar-link a-class">Skeleton v2</a></li>
+</ul>  </div>
+</div>
+  </div>
+       </div>
+    </div>
+    </nav>
+    <div class="clearfix"></div>
+  
+
+
+  <!-- Content
+  ================================================== -->
+  <div id="content">
+
+    
+
+                  <!-- 960 Container -->
+        <div class="container floated">
+          <div class="sixteen floated page-title">
+
+            <h2 class="title_page">Webform</h2>
+
+
+                          <nav id="breadcrumbs">
+
+                <div class="breadcrumb">You are here:  <span class="breadcrumb-0"><a href="/">Home</a></span> &gt; <span class="active">Webform</span></div>              </nav>
+            
+          </div>
+        </div>
+        <!-- 960 Container / End -->
+          
+    
+
+
+    <!-- 960 Container -->
+    <div class="container floated ">
+
+      <!-- Page Content -->
+      <div class="sixteen columns">
+        <section class="page-content">
+          
+
+          <a id="main-content"></a>
+                              <div class="tabs"></div>                                <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-4" class="node node-webform node-promoted node-webform node-promoted clearfix" about="/node/4" typeof="sioc:Item foaf:Document">
+
+
+<div class="ten columns">
+
+    </div>
+  
+
+  </div>
+
+  
+  <div class="content">
+
+          <header class="meta">
+                                <span property="dc:title" content="Webform" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      </header>
+    
+    <div class="field field-name-field-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Light Skeleton already support <a href="https://www.drupal.org/project/webform">webform</a> styling.</p>
+</div></div></div><form class="webform-client-form webform-client-form-4" enctype="multipart/form-data" action="/node/4" method="post" id="webform-client-form-4" accept-charset="UTF-8"><div><div  class="form-item webform-component webform-component-textfield webform-component--full-name">
+  <label for="edit-submitted-full-name">Full name </label>
+ <input type="text" id="edit-submitted-full-name" name="submitted[full_name]" value="" size="60" maxlength="128" class="form-text" />
+</div>
+<div  class="form-item webform-component webform-component-email webform-component--e-mail">
+  <label for="edit-submitted-e-mail">E-mail </label>
+ <input class="email form-text form-email" type="email" id="edit-submitted-e-mail" name="submitted[e_mail]" size="60" />
+</div>
+<div  class="form-item webform-component webform-component-radios webform-component--radios">
+  <label for="edit-submitted-radios">Radios </label>
+ <div id="edit-submitted-radios" class="form-radios"><div class="form-item form-type-radio form-item-submitted-radios">
+ <input type="radio" id="edit-submitted-radios-1" name="submitted[radios]" value="1" class="form-radio" />  <label class="option" for="edit-submitted-radios-1">one </label>
+
+</div>
+<div class="form-item form-type-radio form-item-submitted-radios">
+ <input type="radio" id="edit-submitted-radios-2" name="submitted[radios]" value="2" class="form-radio" />  <label class="option" for="edit-submitted-radios-2">two </label>
+
+</div>
+<div class="form-item form-type-radio form-item-submitted-radios">
+ <input type="radio" id="edit-submitted-radios-3" name="submitted[radios]" value="3" class="form-radio" />  <label class="option" for="edit-submitted-radios-3">three </label>
+
+</div>
+</div>
+</div>
+<div  class="form-item webform-component webform-component-select webform-component--select-list">
+  <label for="edit-submitted-select-list">Select List </label>
+ <select id="edit-submitted-select-list" name="submitted[select_list]" class="form-select"><option value="" selected="selected">- None -</option><option value="1">one</option><option value="2">two</option><option value="3">three</option></select>
+</div>
+<div  class="form-item webform-component webform-component-date webform-component--date">
+  <label for="edit-submitted-date">Date </label>
+ <div class="webform-container-inline webform-datepicker"><div class="form-item form-type-select form-item-submitted-date-month">
+  <label class="element-invisible" for="edit-submitted-date-month">Month </label>
+ <select class="month form-select" id="edit-submitted-date-month" name="submitted[date][month]"><option value="" selected="selected">Month</option><option value="1">Jan</option><option value="2">Feb</option><option value="3">Mar</option><option value="4">Apr</option><option value="5">May</option><option value="6">Jun</option><option value="7">Jul</option><option value="8">Aug</option><option value="9">Sep</option><option value="10">Oct</option><option value="11">Nov</option><option value="12">Dec</option></select>
+</div>
+<div class="form-item form-type-select form-item-submitted-date-day">
+  <label class="element-invisible" for="edit-submitted-date-day">Day </label>
+ <select class="day form-select" id="edit-submitted-date-day" name="submitted[date][day]"><option value="" selected="selected">Day</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option></select>
+</div>
+<div class="form-item form-type-select form-item-submitted-date-year">
+  <label class="element-invisible" for="edit-submitted-date-year">Year </label>
+ <select class="year form-select" id="edit-submitted-date-year" name="submitted[date][year]"><option value="" selected="selected">Year</option><option value="2013">2013</option><option value="2014">2014</option><option value="2015">2015</option><option value="2016">2016</option><option value="2017">2017</option></select>
+</div>
+<input type="image" src="/sites/all/modules/webform/images/calendar.png" class="webform-calendar webform-calendar-start-2013-09-24 webform-calendar-end-2017-09-24 webform-calendar-day-0" alt="Open popup calendar" title="Open popup calendar" />
+</div>
+</div>
+<div  class="form-item webform-component webform-component-textarea webform-component--textarea">
+  <label for="edit-submitted-textarea">Textarea </label>
+ <div class="form-textarea-wrapper resizable"><textarea id="edit-submitted-textarea" name="submitted[textarea]" cols="60" rows="5" class="form-textarea"></textarea></div>
+</div>
+<div  class="form-item webform-component webform-component-number webform-component--number">
+  <label for="edit-submitted-number">Number </label>
+ <input type="text" id="edit-submitted-number" name="submitted[number]" step="any" class="form-text form-number" />
+</div>
+<div  class="form-item webform-component webform-component-grid webform-component--grid">
+  <label for="edit-submitted-grid">Grid </label>
+ <table class="webform-grid webform-grid-4 sticky-enabled u-full-width">
+ <thead><tr><th class="webform-grid-question"></th><th class="checkbox webform-grid-option">poor</th><th class="checkbox webform-grid-option">average</th><th class="checkbox webform-grid-option">good</th><th class="checkbox webform-grid-option">excellent</th> </tr></thead>
+<tbody>
+ <tr class="odd"><td class="webform-grid-question">question one</td><td class="checkbox webform-grid-option" data-label="poor"><div class="form-item form-type-radio form-item-submitted-grid-0">
+  <label class="element-invisible" for="edit-submitted-grid-0-1">question one - poor </label>
+ <input type="radio" id="edit-submitted-grid-0-1" name="submitted[grid][0]" value="0" class="form-radio" />
+</div>
+</td><td class="checkbox webform-grid-option" data-label="average"><div class="form-item form-type-radio form-item-submitted-grid-0">
+  <label class="element-invisible" for="edit-submitted-grid-0-2">question one - average </label>
+ <input type="radio" id="edit-submitted-grid-0-2" name="submitted[grid][0]" value="1" class="form-radio" />
+</div>
+</td><td class="checkbox webform-grid-option" data-label="good"><div class="form-item form-type-radio form-item-submitted-grid-0">
+  <label class="element-invisible" for="edit-submitted-grid-0-3">question one - good </label>
+ <input type="radio" id="edit-submitted-grid-0-3" name="submitted[grid][0]" value="2" class="form-radio" />
+</div>
+</td><td class="checkbox webform-grid-option" data-label="excellent"><div class="form-item form-type-radio form-item-submitted-grid-0">
+  <label class="element-invisible" for="edit-submitted-grid-0-4">question one - excellent </label>
+ <input type="radio" id="edit-submitted-grid-0-4" name="submitted[grid][0]" value="3" class="form-radio" />
+</div>
+</td> </tr>
+ <tr class="even"><td class="webform-grid-question">question two</td><td class="checkbox webform-grid-option" data-label="poor"><div class="form-item form-type-radio form-item-submitted-grid-1">
+  <label class="element-invisible" for="edit-submitted-grid-1-1">question two - poor </label>
+ <input type="radio" id="edit-submitted-grid-1-1" name="submitted[grid][1]" value="0" class="form-radio" />
+</div>
+</td><td class="checkbox webform-grid-option" data-label="average"><div class="form-item form-type-radio form-item-submitted-grid-1">
+  <label class="element-invisible" for="edit-submitted-grid-1-2">question two - average </label>
+ <input type="radio" id="edit-submitted-grid-1-2" name="submitted[grid][1]" value="1" class="form-radio" />
+</div>
+</td><td class="checkbox webform-grid-option" data-label="good"><div class="form-item form-type-radio form-item-submitted-grid-1">
+  <label class="element-invisible" for="edit-submitted-grid-1-3">question two - good </label>
+ <input type="radio" id="edit-submitted-grid-1-3" name="submitted[grid][1]" value="2" class="form-radio" />
+</div>
+</td><td class="checkbox webform-grid-option" data-label="excellent"><div class="form-item form-type-radio form-item-submitted-grid-1">
+  <label class="element-invisible" for="edit-submitted-grid-1-4">question two - excellent </label>
+ <input type="radio" id="edit-submitted-grid-1-4" name="submitted[grid][1]" value="3" class="form-radio" />
+</div>
+</td> </tr>
+ <tr class="odd"><td class="webform-grid-question">question three</td><td class="checkbox webform-grid-option" data-label="poor"><div class="form-item form-type-radio form-item-submitted-grid-2">
+  <label class="element-invisible" for="edit-submitted-grid-2-1">question three - poor </label>
+ <input type="radio" id="edit-submitted-grid-2-1" name="submitted[grid][2]" value="0" class="form-radio" />
+</div>
+</td><td class="checkbox webform-grid-option" data-label="average"><div class="form-item form-type-radio form-item-submitted-grid-2">
+  <label class="element-invisible" for="edit-submitted-grid-2-2">question three - average </label>
+ <input type="radio" id="edit-submitted-grid-2-2" name="submitted[grid][2]" value="1" class="form-radio" />
+</div>
+</td><td class="checkbox webform-grid-option" data-label="good"><div class="form-item form-type-radio form-item-submitted-grid-2">
+  <label class="element-invisible" for="edit-submitted-grid-2-3">question three - good </label>
+ <input type="radio" id="edit-submitted-grid-2-3" name="submitted[grid][2]" value="2" class="form-radio" />
+</div>
+</td><td class="checkbox webform-grid-option" data-label="excellent"><div class="form-item form-type-radio form-item-submitted-grid-2">
+  <label class="element-invisible" for="edit-submitted-grid-2-4">question three - excellent </label>
+ <input type="radio" id="edit-submitted-grid-2-4" name="submitted[grid][2]" value="3" class="form-radio" />
+</div>
+</td> </tr>
+</tbody>
+</table>
+
+</div>
+<div  class="form-item webform-component webform-component-time webform-component--time">
+  <label for="edit-submitted-time">Time </label>
+ <div class="webform-container-inline"><div class="form-item form-type-select form-item-submitted-time-hour">
+  <label class="element-invisible" for="edit-submitted-time-hour">Hour </label>
+ <select class="hour form-select" id="edit-submitted-time-hour" name="submitted[time][hour]"><option value="" selected="selected">Hour</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option></select>
+</div>
+:<div class="form-item form-type-select form-item-submitted-time-minute">
+  <label class="element-invisible" for="edit-submitted-time-minute">Minute </label>
+ <select class="minute form-select" id="edit-submitted-time-minute" name="submitted[time][minute]"><option value="">Minute</option><option value="0" selected="selected">00</option><option value="1">01</option><option value="2">02</option><option value="3">03</option><option value="4">04</option><option value="5">05</option><option value="6">06</option><option value="7">07</option><option value="8">08</option><option value="9">09</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option><option value="32">32</option><option value="33">33</option><option value="34">34</option><option value="35">35</option><option value="36">36</option><option value="37">37</option><option value="38">38</option><option value="39">39</option><option value="40">40</option><option value="41">41</option><option value="42">42</option><option value="43">43</option><option value="44">44</option><option value="45">45</option><option value="46">46</option><option value="47">47</option><option value="48">48</option><option value="49">49</option><option value="50">50</option><option value="51">51</option><option value="52">52</option><option value="53">53</option><option value="54">54</option><option value="55">55</option><option value="56">56</option><option value="57">57</option><option value="58">58</option><option value="59">59</option></select>
+</div>
+<div id="edit-submitted-time-ampm" class="form-radios"><div class="form-item form-type-radio form-item-submitted-time-ampm">
+ <input type="radio" id="edit-submitted-time-ampm-am" name="submitted[time][ampm]" value="am" checked="checked" class="form-radio" />  <label class="option" for="edit-submitted-time-ampm-am">am </label>
+
+</div>
+<div class="form-item form-type-radio form-item-submitted-time-ampm">
+ <input type="radio" id="edit-submitted-time-ampm-pm" name="submitted[time][ampm]" value="pm" class="form-radio" />  <label class="option" for="edit-submitted-time-ampm-pm">pm </label>
+
+</div>
+</div></div>
+</div>
+<fieldset class="webform-component-fieldset webform-component--address form-wrapper"><legend><span class="fieldset-legend">Address</span></legend><div class="fieldset-wrapper"><div  class="form-item webform-component webform-component-textfield webform-component--address--city">
+  <label for="edit-submitted-address-city">City </label>
+ <input type="text" id="edit-submitted-address-city" name="submitted[address][city]" value="" size="60" maxlength="128" class="form-text" />
+</div>
+<div  class="form-item webform-component webform-component-textfield webform-component--address--country">
+  <label for="edit-submitted-address-country">Country </label>
+ <input type="text" id="edit-submitted-address-country" name="submitted[address][country]" value="" size="60" maxlength="128" class="form-text" />
+</div>
+<div  class="form-item webform-component webform-component-number webform-component--address--zipcode">
+  <label for="edit-submitted-address-zipcode">Zipcode </label>
+ <input type="text" id="edit-submitted-address-zipcode" name="submitted[address][zipcode]" step="any" class="form-text form-number" />
+</div>
+</div></fieldset>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="1" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-pkuP4rA2s4PltO_PgR83Lak18pvVQzh4HK_fx1z32Fc" />
+<input type="hidden" name="form_id" value="webform_client_form_4" />
+<div class="form-actions"><input class="webform-submit button-primary form-submit" type="submit" name="op" value="Submit" /></div></div></form>    
+      </div>
+
+</div>
+  </div>
+</div>
+  </div>
+                  </section>
+      </div>
+      <!-- Page Content / End -->
+
+      <div class="clearfix"></div>
+
+    </div>
+    <!-- 960 Container / End -->
+
+  </div>
+  <!-- Content / End -->
+
+</div>
+<!-- Wrapper / End -->
+
+
+<!-- Footer
+================================================== -->
+
+
+
+<!-- Footer Bottom / Start  -->
+<footer id="footer-bottom">
+
+  <!-- 960 Container -->
+  <div class="container">
+    <div class="sixteen columns">
+        <div class="region region-footer">
+    <div id="block-block-1" class="block block-block">
+
+    
+  <div class="content">
+    <div class="four columns left">
+  <span class="left">Powered by <a href="https://www.drupal.org">Drupal</a></span>
+</div>
+
+<div class="eight columns right">
+  <span class="right">Drupal Theme build by <a href="https://www.drupal.org/u/darol100">Darryl Norris (darol100)</a></span>
+
+</div>  </div>
+</div>
+  </div>
+    </div>
+  </div>
+  <!-- 960 Container / End -->
+
+</footer>
+<!-- Footer Bottom / End -->
+  </body>
+</html>
